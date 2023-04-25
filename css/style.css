@@ -1,16 +1,22 @@
 /* diagnostic styling */
-* {
-    outline: 1px dotted gray;
-}
 
+@import url('stardom.css');
 /* layout */
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: #1D1D1D;
+    background: #0A100D;
+    font-family: 'Stardom-Regular';
 }
-
+.front h2{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1rem;
+    
+}
 
 /* scene */
 .scene {
@@ -18,7 +24,7 @@ body {
     height: 400px;
     /* space between card-scenes */
     margin: 16px;
-
+   
     /* set perspective   */
     perspective: 600px;
 }
@@ -28,7 +34,7 @@ body {
     width: 100%;
     height: 100%;
     position: relative;
-
+    
     cursor: pointer;
     transition: transform 1s;
 
@@ -41,19 +47,38 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-
+    border-radius: 5px;
     /* hide back face   */
     backface-visibility: hidden;
+    
+}
+.centerBottom{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5em;
+    color: #C19B9F;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .front {
-    background: coral;
+    background: #C19B9F;
+    
 }
 
 .back {
-    background: cornflowerblue;
+    background: #24331C;
+    
     /* flip it default   */
     transform: rotateY(180deg);
+}
+
+.back p{
+    padding:0 1em 0 1em;
+    font-size: 1.1em;
+    color:#C19B9F;
 }
 
 /* flip card
