@@ -1,4 +1,3 @@
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ewuweblab/certificate-cards)
 
 # Certificate Cards
 
@@ -20,3 +19,7 @@ Promotional site to showcase Dept of Design Certificates.
 ## Citations
 - [3D Card Flip](https://codepen.io/desandro/pen/LmWoWe)
 - [3D Product Cards by Zac](https://codepen.io/zremboldt/pen/ZvQjOG)
+
+## SVGS
+
+- friend and I did a collaborative figma file and worked on designing proper icons for the site.
