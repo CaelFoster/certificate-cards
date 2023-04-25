@@ -1,0 +1,10 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group">
+<path id="Bottom" d="M55 41.5L28 28L1 41.5L28 55L55 41.5Z" fill="#797979" stroke="#343434" stroke-miterlimit="1"/>
+<path id="Back" d="M55 41.5L28 28V1L55 14.5V41.5Z" fill="#9C9C9C" stroke="#343434" stroke-miterlimit="1"/>
+<path id="Left" d="M28 28L1 41.5V14.5L28 1V28Z" fill="#ADADAD" stroke="#343434" stroke-miterlimit="1"/>
+<path id="Front" d="M28 55L1 41.5V14.5L28 28V55Z" fill="#667060" stroke="#24331C" stroke-miterlimit="1"/>
+<path id="Right" d="M28 55L55 41.5V14.5L28 28V55Z" fill="#505C49" stroke="#24331C" stroke-miterlimit="1"/>
+<path id="Top" d="M55 14.5L28 1L1 14.5L28 28L55 14.5Z" fill="#3A4733" stroke="#24331C" stroke-miterlimit="1"/>
+</g>
+</svg>

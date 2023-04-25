@@ -11,6 +11,12 @@ body {
     background: #0A100D;
     font-family: 'Stardom-Regular';
 }
+img{
+    display:grid;
+    margin:5em auto;
+    width:70%;
+    
+}
 .front h2{
     text-align: center;
     font-size: 2em;
